@@ -43,8 +43,8 @@
     {
       "id": "t005",
       "nombre": "Consman Urban Mobility",
-      "lat": 41.4685,
-      "lng": 1.97181,
+      "lat": 41.46845,
+      "lng": 1.9719,
       "nivel": 1,
       "activado": true,
       "marcado": false,
