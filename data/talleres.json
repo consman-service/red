@@ -1,0 +1,294 @@
+{
+  "talleres": [
+    {
+      "id": "t001",
+      "nombre": "Carrocera Castrosua S.A.",
+      "lat": 42.90549,
+      "lng": -8.51691,
+      "nivel": 1,
+      "activado": true,
+      "marcado": false,
+      "visible": true
+    },
+    {
+      "id": "t002",
+      "nombre": "Carrocerías Los Ángeles",
+      "lat": 43.51012,
+      "lng": -5.68604,
+      "nivel": 3,
+      "activado": false,
+      "marcado": false,
+      "visible": true
+    },
+    {
+      "id": "t003",
+      "nombre": "CSG Electrotecnia",
+      "lat": 43.41963,
+      "lng": -5.80783,
+      "nivel": 2,
+      "activado": true,
+      "marcado": false,
+      "visible": true
+    },
+    {
+      "id": "t004",
+      "nombre": "Talleres Agustín Peláez Bosch Car Service",
+      "lat": 38.92767,
+      "lng": -6.38994,
+      "nivel": 3,
+      "activado": false,
+      "marcado": false,
+      "visible": true
+    },
+    {
+      "id": "t005",
+      "nombre": "Consman Urban Mobility",
+      "lat": 41.4685,
+      "lng": 1.97181,
+      "nivel": 1,
+      "activado": true,
+      "marcado": false,
+      "visible": true
+    },
+    {
+      "id": "t006",
+      "nombre": "Carrocerías Pareizo S.L",
+      "lat": 43.30452,
+      "lng": -2.94584,
+      "nivel": 2,
+      "activado": false,
+      "marcado": false,
+      "visible": true
+    },
+    {
+      "id": "t007",
+      "nombre": "Bermar carrocerias",
+      "lat": 38.99332,
+      "lng": -3.86685,
+      "nivel": 3,
+      "activado": false,
+      "marcado": false,
+      "visible": true
+    },
+    {
+      "id": "t008",
+      "nombre": "Carrocerías La Llana, S.L.",
+      "lat": 37.85072,
+      "lng": -4.7917,
+      "nivel": 2,
+      "activado": false,
+      "marcado": true,
+      "visible": true
+    },
+    {
+      "id": "t009",
+      "nombre": "Dercar",
+      "lat": 41.85188,
+      "lng": 2.68363,
+      "nivel": 2,
+      "activado": false,
+      "marcado": false,
+      "visible": true
+    },
+    {
+      "id": "t010",
+      "nombre": "Electroauto Girona SL",
+      "lat": 41.96827,
+      "lng": 2.77083,
+      "nivel": 3,
+      "activado": false,
+      "marcado": false,
+      "visible": true
+    },
+    {
+      "id": "t011",
+      "nombre": "Auto Electrofrío Alhambra",
+      "lat": 37.24428,
+      "lng": -3.65404,
+      "nivel": 2,
+      "activado": true,
+      "marcado": true,
+      "visible": true
+    },
+    {
+      "id": "t012",
+      "nombre": "Carrocerías Rossi S.L",
+      "lat": 37.22575,
+      "lng": -3.63767,
+      "nivel": 3,
+      "activado": false,
+      "marcado": false,
+      "visible": true
+    },
+    {
+      "id": "t013",
+      "nombre": "Talleres Arbucias",
+      "lat": 39.6125,
+      "lng": 2.6675,
+      "nivel": 3,
+      "activado": false,
+      "marcado": false,
+      "visible": true
+    },
+    {
+      "id": "t014",
+      "nombre": "Insular Carrocera S.A.",
+      "lat": 28.10852,
+      "lng": -15.48887,
+      "nivel": 1,
+      "activado": false,
+      "marcado": false,
+      "visible": true
+    },
+    {
+      "id": "t015",
+      "nombre": "J.A.M.D. climatización",
+      "lat": 28.43,
+      "lng": -13.87515,
+      "nivel": 2,
+      "activado": false,
+      "marcado": false,
+      "visible": true
+    },
+    {
+      "id": "t016",
+      "nombre": "Taller Electro Frio Motor",
+      "lat": 36.67339,
+      "lng": -4.47477,
+      "nivel": 2,
+      "activado": false,
+      "marcado": true,
+      "visible": true
+    },
+    {
+      "id": "t017",
+      "nombre": "Carrocerías Ruygar Lorca S.L.",
+      "lat": 37.95712,
+      "lng": -1.1917,
+      "nivel": 2,
+      "activado": true,
+      "marcado": false,
+      "visible": true
+    },
+    {
+      "id": "t018",
+      "nombre": "Taller LAT - Secoemur S.L",
+      "lat": 37.94782,
+      "lng": -1.15719,
+      "nivel": 2,
+      "activado": false,
+      "marcado": false,
+      "visible": true
+    },
+    {
+      "id": "t019",
+      "nombre": "Castro Carrocera S.A.",
+      "lat": 42.64012,
+      "lng": -8.7446,
+      "nivel": 1,
+      "activado": true,
+      "marcado": false,
+      "visible": true
+    },
+    {
+      "id": "t020",
+      "nombre": "Autoelectricidad Polo S.L.",
+      "lat": 40.93956,
+      "lng": -5.65688,
+      "nivel": 2,
+      "activado": false,
+      "marcado": false,
+      "visible": true
+    },
+    {
+      "id": "t021",
+      "nombre": "Talleres Tablada",
+      "lat": 40.90625,
+      "lng": -4.10914,
+      "nivel": 3,
+      "activado": false,
+      "marcado": false,
+      "visible": true
+    },
+    {
+      "id": "t022",
+      "nombre": "Grupo Pérez Halcón",
+      "lat": 36.9316,
+      "lng": -6.08546,
+      "nivel": 2,
+      "activado": false,
+      "marcado": false,
+      "visible": true
+    },
+    {
+      "id": "t023",
+      "nombre": "Recasur S.L.",
+      "lat": 37.39843,
+      "lng": -5.71107,
+      "nivel": 2,
+      "activado": false,
+      "marcado": false,
+      "visible": true
+    },
+    {
+      "id": "t024",
+      "nombre": "Bescoromar S L",
+      "lat": 28.07799,
+      "lng": -16.61351,
+      "nivel": 3,
+      "activado": false,
+      "marcado": false,
+      "visible": true
+    },
+    {
+      "id": "t025",
+      "nombre": "Talleres Jan Talavera S.L",
+      "lat": 39.9546,
+      "lng": -4.86952,
+      "nivel": 2,
+      "activado": false,
+      "marcado": false,
+      "visible": true
+    },
+    {
+      "id": "t026",
+      "nombre": "Reparación de Carrocerías Lluch SL",
+      "lat": 39.58592,
+      "lng": -0.35064,
+      "nivel": 2,
+      "activado": false,
+      "marcado": false,
+      "visible": true
+    },
+    {
+      "id": "t027",
+      "nombre": "Takumisan",
+      "lat": 39.3636,
+      "lng": -0.41902,
+      "nivel": 2,
+      "activado": false,
+      "marcado": false,
+      "visible": true
+    },
+    {
+      "id": "t028",
+      "nombre": "Autoinyección Vicente S.A.",
+      "lat": 41.62096,
+      "lng": -4.69911,
+      "nivel": 3,
+      "activado": false,
+      "marcado": false,
+      "visible": true
+    },
+    {
+      "id": "t029",
+      "nombre": "Movibus S.L",
+      "lat": 41.66808,
+      "lng": -0.86299,
+      "nivel": 2,
+      "activado": false,
+      "marcado": false,
+      "visible": true
+    }
+  ]
+}
