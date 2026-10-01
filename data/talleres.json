@@ -289,16 +289,6 @@
       "activado": false,
       "marcado": false,
       "visible": true
-    },
-    {
-      "id": "tmuo7nw7k",
-      "nombre": "madrid 2",
-      "lat": 40.40513,
-      "lng": -3.68042,
-      "nivel": 3,
-      "activado": false,
-      "marcado": false,
-      "visible": true
     }
   ]
 }
