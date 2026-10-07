@@ -628,15 +628,44 @@
 
     function dialogoClave() {
       const r = repositorio()
-      const campo = h('input', { class: 'campo', type: 'password', placeholder: 'github_pat_…', value: claveGithub(), autocomplete: 'off' })
+      // El campo va SIEMPRE vacío. Antes venía relleno con la clave guardada,
+      // escondida con puntos, y al pegar la nueva se quedaba pegada detrás de
+      // la vieja: GitHub decía que la clave estaba mal y era verdad, eran dos.
+      const guardada = claveGithub()
+      const campo = h('input', {
+        class: 'campo',
+        type: 'password',
+        placeholder: guardada ? 'Ya hay una guardada · pega aquí la nueva' : 'github_pat_…',
+        value: '',
+        autocomplete: 'off',
+      })
       const aviso = h('p', { class: 'error' })
       const cerrar = () => velo.remove()
 
       async function probar() {
         aviso.textContent = ''
         const antes = claveGithub()
+        // Sin escribir nada se vuelve a probar la que ya estaba
+        const nueva = campo.value.trim() || antes
+        if (!nueva) {
+          aviso.textContent = 'Pega la clave de GitHub.'
+          return
+        }
+        if (!/^(github_pat_|ghp_)/.test(nueva)) {
+          aviso.textContent = 'Eso no parece una clave de GitHub: tiene que empezar por «github_pat_».'
+          return
+        }
+        // Una clave fine-grained entera mide 93 caracteres. En la pantalla de
+        // GitHub sale cortada, y si se copia seleccionando el texto en vez de
+        // con su botón de copiar, se lleva sólo un trozo.
+        if (nueva.startsWith('github_pat_') && nueva.length !== 93) {
+          aviso.textContent =
+            `La clave pegada tiene ${nueva.length} caracteres y una entera tiene 93: se ha copiado a medias ` +
+            '(o con algo de más). Cópiala con el botón de copiar que hay al lado de la clave en GitHub.'
+          return
+        }
         try {
-          localStorage.setItem(CLAVE_GITHUB, campo.value.trim())
+          localStorage.setItem(CLAVE_GITHUB, nueva)
           const leido = await leerDeGithub()
           // Si no había cambios a medias, se trabaja sobre lo último guardado
           if (!sinGuardar) talleres = leido.talleres
