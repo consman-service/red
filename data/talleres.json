@@ -113,8 +113,8 @@
     {
       "id": "t012",
       "nombre": "Carrocerías Rossi S.L",
-      "lat": 37.22575,
-      "lng": -3.63767,
+      "lat": 37.2303,
+      "lng": -3.62541,
       "nivel": 3,
       "activado": false,
       "marcado": false,
@@ -305,7 +305,7 @@
       "nombre": "Consman Service and Mobility",
       "lat": 40.41333,
       "lng": -3.69091,
-      "nivel": 3,
+      "nivel": 1,
       "activado": false,
       "marcado": false,
       "visible": true
