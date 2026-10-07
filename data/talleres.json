@@ -38,7 +38,7 @@
       "nivel": 3,
       "activado": false,
       "marcado": false,
-      "visible": true
+      "visible": false
     },
     {
       "id": "t005",
@@ -326,6 +326,16 @@
       "lat": 41.19481,
       "lng": 1.07671,
       "nivel": 1,
+      "activado": false,
+      "marcado": false,
+      "visible": true
+    },
+    {
+      "id": "tmuxubfpl",
+      "nombre": "Servibus Extresdura",
+      "lat": 39.02799,
+      "lng": -6.48098,
+      "nivel": 3,
       "activado": false,
       "marcado": false,
       "visible": true
