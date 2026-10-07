@@ -18,7 +18,7 @@
       "nivel": 3,
       "activado": false,
       "marcado": false,
-      "visible": true
+      "visible": false
     },
     {
       "id": "t003",
@@ -42,9 +42,9 @@
     },
     {
       "id": "t005",
-      "nombre": "Consman Urban Mobility",
-      "lat": 41.4685,
-      "lng": 1.97181,
+      "nombre": "Consman Service and Mobility",
+      "lat": 41.46845,
+      "lng": 1.9719,
       "nivel": 1,
       "activado": true,
       "marcado": false,
@@ -58,7 +58,7 @@
       "nivel": 2,
       "activado": false,
       "marcado": false,
-      "visible": true
+      "visible": false
     },
     {
       "id": "t007",
@@ -68,7 +68,7 @@
       "nivel": 3,
       "activado": false,
       "marcado": false,
-      "visible": true
+      "visible": false
     },
     {
       "id": "t008",
@@ -88,7 +88,7 @@
       "nivel": 2,
       "activado": false,
       "marcado": false,
-      "visible": true
+      "visible": false
     },
     {
       "id": "t010",
@@ -118,7 +118,7 @@
       "nivel": 3,
       "activado": false,
       "marcado": false,
-      "visible": true
+      "visible": false
     },
     {
       "id": "t013",
@@ -128,7 +128,7 @@
       "nivel": 3,
       "activado": false,
       "marcado": false,
-      "visible": true
+      "visible": false
     },
     {
       "id": "t014",
@@ -148,7 +148,7 @@
       "nivel": 2,
       "activado": false,
       "marcado": false,
-      "visible": true
+      "visible": false
     },
     {
       "id": "t016",
@@ -158,7 +158,7 @@
       "nivel": 2,
       "activado": false,
       "marcado": true,
-      "visible": true
+      "visible": false
     },
     {
       "id": "t017",
@@ -178,7 +178,7 @@
       "nivel": 2,
       "activado": false,
       "marcado": false,
-      "visible": true
+      "visible": false
     },
     {
       "id": "t019",
@@ -198,7 +198,7 @@
       "nivel": 2,
       "activado": false,
       "marcado": false,
-      "visible": true
+      "visible": false
     },
     {
       "id": "t021",
@@ -208,7 +208,7 @@
       "nivel": 3,
       "activado": false,
       "marcado": false,
-      "visible": true
+      "visible": false
     },
     {
       "id": "t022",
@@ -218,7 +218,7 @@
       "nivel": 2,
       "activado": false,
       "marcado": false,
-      "visible": true
+      "visible": false
     },
     {
       "id": "t023",
@@ -238,7 +238,7 @@
       "nivel": 3,
       "activado": false,
       "marcado": false,
-      "visible": true
+      "visible": false
     },
     {
       "id": "t025",
@@ -248,7 +248,7 @@
       "nivel": 2,
       "activado": false,
       "marcado": false,
-      "visible": true
+      "visible": false
     },
     {
       "id": "t026",
@@ -258,7 +258,7 @@
       "nivel": 2,
       "activado": false,
       "marcado": false,
-      "visible": true
+      "visible": false
     },
     {
       "id": "t027",
@@ -268,7 +268,7 @@
       "nivel": 2,
       "activado": false,
       "marcado": false,
-      "visible": true
+      "visible": false
     },
     {
       "id": "t028",
@@ -286,6 +286,36 @@
       "lat": 41.66808,
       "lng": -0.86299,
       "nivel": 2,
+      "activado": false,
+      "marcado": false,
+      "visible": false
+    },
+    {
+      "id": "tmuxs2yto",
+      "nombre": "Diseños y Montajes Mecánicos",
+      "lat": 41.62313,
+      "lng": -0.87879,
+      "nivel": 3,
+      "activado": false,
+      "marcado": false,
+      "visible": true
+    },
+    {
+      "id": "tmuxs4d0t",
+      "nombre": "Consman Service and Mobility",
+      "lat": 40.41333,
+      "lng": -3.69091,
+      "nivel": 3,
+      "activado": false,
+      "marcado": false,
+      "visible": true
+    },
+    {
+      "id": "tmuxsk5k6",
+      "nombre": "Consman Service and Mobility",
+      "lat": 39.55497,
+      "lng": 2.81213,
+      "nivel": 3,
       "activado": false,
       "marcado": false,
       "visible": true
