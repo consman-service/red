@@ -166,15 +166,15 @@
       "lat": 37.95712,
       "lng": -1.1917,
       "nivel": 2,
-      "activado": true,
+      "activado": false,
       "marcado": false,
       "visible": true
     },
     {
       "id": "t018",
       "nombre": "Taller LAT - Secoemur S.L",
-      "lat": 37.94782,
-      "lng": -1.15719,
+      "lat": 37.82284,
+      "lng": -0.79107,
       "nivel": 2,
       "activado": false,
       "marcado": false,
