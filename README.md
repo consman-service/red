@@ -10,8 +10,9 @@ pensada para GitHub Pages.
 
 - **Entrada**: botón «Entrar como invitado» o usuario y contraseña.
 - **Invitado**: ve los apartados (de momento sólo «Mapa») y, en el mapa, los
-  talleres como puntos con su nivel y su color. Al pasar el ratón sale el
-  nombre del taller y nada más. Al hacer clic no pasa nada.
+  talleres como círculos de color, sin número: el nivel sólo lo ve el
+  administrador al editar. Al pasar el ratón sale el nombre del taller y nada
+  más. Al hacer clic no pasa nada.
 - **Administrador**: además puede **editar el mapa**: esconder talleres (el
   ojo), cambiarles nombre, nivel y color, moverlos arrastrando el punto,
   añadir y quitar. Al pulsar «Guardar y publicar» los cambios se escriben en

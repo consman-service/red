@@ -429,7 +429,14 @@
         const clases = ['punto', t.activado && 'punto--activado', t.marcado && 'punto--marcado', !t.visible && 'punto--oculto', t.id === elegidoId && 'punto--elegido']
           .filter(Boolean)
           .join(' ')
-        const dibujo = L.divIcon({ className: clases, html: `<span>${t.nivel}</span>`, iconSize: [30, 30], iconAnchor: [15, 15] })
+        // El número del nivel sólo lo ve el administrador al editar: el
+        // cliente ve el círculo a secas, con su color.
+        const dibujo = L.divIcon({
+          className: clases,
+          html: editando ? `<span>${t.nivel}</span>` : '<span></span>',
+          iconSize: [30, 30],
+          iconAnchor: [15, 15],
+        })
         let marca = marcas.get(t.id)
         if (!marca) {
           marca = L.marker([t.lat, t.lng], { icon: dibujo, alt: t.nombre, keyboard: false, draggable: editando })
