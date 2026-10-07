@@ -95,7 +95,7 @@
       "nombre": "Electroauto Girona SL",
       "lat": 41.96827,
       "lng": 2.77083,
-      "nivel": 3,
+      "nivel": 2,
       "activado": false,
       "marcado": false,
       "visible": true
@@ -295,7 +295,7 @@
       "nombre": "Diseños y Montajes Mecánicos",
       "lat": 41.62313,
       "lng": -0.87879,
-      "nivel": 3,
+      "nivel": 2,
       "activado": false,
       "marcado": false,
       "visible": true
@@ -315,7 +315,7 @@
       "nombre": "Consman Service and Mobility",
       "lat": 39.55477,
       "lng": 2.81214,
-      "nivel": 3,
+      "nivel": 1,
       "activado": false,
       "marcado": false,
       "visible": true
