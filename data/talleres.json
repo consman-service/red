@@ -42,7 +42,7 @@
     },
     {
       "id": "t005",
-      "nombre": "Consman Service and Mobility",
+      "nombre": "Consman Service and Mobility BCN",
       "lat": 41.46845,
       "lng": 1.9719,
       "nivel": 1,
@@ -302,7 +302,7 @@
     },
     {
       "id": "tmuxs4d0t",
-      "nombre": "Consman Service and Mobility",
+      "nombre": "Consman Service and Mobility MAD",
       "lat": 40.41333,
       "lng": -3.69091,
       "nivel": 1,
@@ -312,9 +312,19 @@
     },
     {
       "id": "tmuxsk5k6",
-      "nombre": "Consman Service and Mobility",
+      "nombre": "Consman Service and Mobility SAT",
       "lat": 39.55477,
       "lng": 2.81214,
+      "nivel": 1,
+      "activado": false,
+      "marcado": false,
+      "visible": true
+    },
+    {
+      "id": "tmuxu7gds",
+      "nombre": "Consman Service and Mobility TGN",
+      "lat": 41.19481,
+      "lng": 1.07671,
       "nivel": 1,
       "activado": false,
       "marcado": false,
